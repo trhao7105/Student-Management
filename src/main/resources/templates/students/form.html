@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${isEdit} ? 'Chỉnh Sửa Sinh Viên' : 'Thêm Sinh Viên'"></title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        label { display: block; margin-top: 10px; }
+        input { padding: 6px; width: 300px; }
+        .btn { margin-top: 15px; padding: 6px 10px; }
+    </style>
+</head>
+<body>
+
+<h1 th:text="${isEdit} ? 'Chỉnh Sửa Sinh Viên' : 'Thêm Sinh Viên'"></h1>
+
+<form th:action="${isEdit} ? 
+        @{'/students/update/' + ${student.id}} : 
+        @{/students/save}" 
+      method="post"
+      th:object="${student}">
+
+    <!-- ID -->
+    <label>MSSV:</label>
+    <input type="text"
+           th:field="*{id}"
+           th:readonly="${isEdit}"
+           required />
+
+    <label>Tên:</label>
+    <input type="text" th:field="*{name}" required />
+
+    <label>Email:</label>
+    <input type="email" th:field="*{email}" required />
+
+    <label>Tuổi:</label>
+    <input type="number" th:field="*{age}" required />
+
+    <br>
+    <button type="submit" class="btn">💾 Lưu</button>
+</form>
+
+
+<br>
+<a href="/students">⬅ Quay về Danh Sách</a>
+
+</body>
+</html>
