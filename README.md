@@ -85,7 +85,7 @@ spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 ### 1️⃣ Clone project
 
 ```bash
-git clone <link-repository>
+git clone https://github.com/trhao7105/Student-Management.git
 cd student-management
 ```
 
