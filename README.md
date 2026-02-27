@@ -49,17 +49,29 @@ Dự án **Student Management System** được xây dựng bằng Spring Boot n
 ```
 student-management/
 │
-├── src/main/java/
-│   ├── controller/
-│   ├── service/
-│   ├── repository/
-│   └── entity/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── vn/
+│   │   │       └── edu/
+│   │   │           └── hcmut/
+│   │   │               └── cse/
+│   │   │                   └── adsoftweng/
+│   │   │                       └── lab/
+│   │   │                           ├── controller/
+│   │   │                           ├── entity/
+│   │   │                           ├── repository/
+│   │   │                           ├── service/
+│   │   │                           └── StudentManagementApplication.java
+│   │   │
+│   │   └── resources/
+│   │       ├── templates/
+│   │       └── application.properties
+│   │
+│   └── test/
 │
-├── src/main/resources/
-│   ├── templates/
-│   └── application.properties
-│
-└── pom.xml
+├── pom.xml
+└── README.md
 ```
 
 ---
