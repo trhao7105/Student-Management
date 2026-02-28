@@ -119,22 +119,16 @@ http://localhost:8080/students
 
 ## 📸 Screenshot Module Lab 4
 
-### 1️⃣ Trang danh sách sinh viên
 ![Student List](https://github.com/user-attachments/assets/e8794a0d-6123-4ca4-886c-d9daba9b4313)
 
-### 2️⃣ Form thêm sinh viên
 ![Add Student](https://github.com/user-attachments/assets/f862f20a-e361-429c-b5e1-be8ad4d4ff04)
 
-### 3️⃣ Cơ sở dữ liệu PostgreSQL
 ![Database](https://github.com/user-attachments/assets/f26fbae2-0c43-49fc-a5c9-68ea484f6e38)
 
-### 4️⃣ Chức năng cập nhật sinh viên
 ![Update](https://github.com/user-attachments/assets/5affc707-e149-48f8-b1c1-dbf988cac10c)
 
-### 5️⃣ Chức năng xóa sinh viên
 ![Delete](https://github.com/user-attachments/assets/f0797261-b7cf-4049-8c1c-95008d7e3a34)
 
-### 6️⃣ Deploy thành công trên Render
 ![Deploy](https://github.com/user-attachments/assets/c1ee8519-934a-4fc6-8f0c-fd039e71be51)
 
 ---
